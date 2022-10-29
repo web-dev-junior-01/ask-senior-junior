@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class QuestionVO {
 	private int questionNumber;
-	private int userNumber;
+	private int memberNumber;
 	private String questionCategory;
 	private String questionTitle;
 	private String questionContent;
@@ -23,11 +23,11 @@ public class QuestionVO {
 	}
 
 	public int getUserNumber() {
-		return userNumber;
+		return memberNumber;
 	}
 
 	public void setUserNumber(int userNumber) {
-		this.userNumber = userNumber;
+		this.memberNumber = userNumber;
 	}
 
 	public String getQuestionCategory() {
@@ -64,7 +64,7 @@ public class QuestionVO {
 
 	@Override
 	public String toString() {
-		return "QuestionVO [questionNumber=" + questionNumber + ", userNumber=" + userNumber + ", questionCategory="
+		return "QuestionVO [questionNumber=" + questionNumber + ", userNumber=" + memberNumber + ", questionCategory="
 				+ questionCategory + ", questionTitle=" + questionTitle + ", questionContent=" + questionContent
 				+ ", questionUpdatedDate=" + questionUpdatedDate + "]";
 	}

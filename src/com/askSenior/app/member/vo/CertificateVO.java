@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class CertificateVO {
 	private int certificateNumber;
-	private int userNumber;
+	private int memberNumber;
 	private String certificateName;
 	private String certificateAuthority;
 	private Date certificateGetDate;
@@ -21,12 +21,12 @@ public class CertificateVO {
 		this.certificateNumber = certificateNumber;
 	}
 
-	public int getUserNumber() {
-		return userNumber;
+	public int getMemberNumber() {
+		return memberNumber;
 	}
 
-	public void setUserNumber(int userNumber) {
-		this.userNumber = userNumber;
+	public void setMemberNumber(int memberNumber) {
+		this.memberNumber = memberNumber;
 	}
 
 	public String getCertificateName() {
@@ -55,11 +55,12 @@ public class CertificateVO {
 
 	@Override
 	public String toString() {
-		return "CertificateVO [certificateNumber=" + certificateNumber + ", userNumber=" + userNumber
+		return "CertificateVO [certificateNumber=" + certificateNumber + ", memberNumber=" + memberNumber
 				+ ", certificateName=" + certificateName + ", certificateAuthority=" + certificateAuthority
 				+ ", certificateGetDate=" + certificateGetDate + "]";
 	}
 
+	
 	
 	
 	

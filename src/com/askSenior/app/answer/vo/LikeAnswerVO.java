@@ -2,7 +2,7 @@ package com.askSenior.app.answer.vo;
 
 public class LikeAnswerVO {
 	private int answerNumber;
-	private int userNumber;
+	private int memberNumber;
 	
 	public LikeAnswerVO() {
 		// TODO Auto-generated constructor stub
@@ -17,16 +17,16 @@ public class LikeAnswerVO {
 	}
 
 	public int getUserNumber() {
-		return userNumber;
+		return memberNumber;
 	}
 
 	public void setUserNumber(int userNumber) {
-		this.userNumber = userNumber;
+		this.memberNumber = userNumber;
 	}
 
 	@Override
 	public String toString() {
-		return "LikeAnswerVO [answerNumber=" + answerNumber + ", userNumber=" + userNumber + "]";
+		return "LikeAnswerVO [answerNumber=" + answerNumber + ", userNumber=" + memberNumber + "]";
 	}
 
 	

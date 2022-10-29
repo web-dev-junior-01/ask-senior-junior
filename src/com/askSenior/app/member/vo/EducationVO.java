@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class EducationVO {
 	private int educationNumber;
-	private int userNumber;
+	private int memberNumber;
 	private String educationSchool;
 	private String educationMajor;
 	private Date educationAdmissionDate;
@@ -22,12 +22,12 @@ public class EducationVO {
 		this.educationNumber = educationNumber;
 	}
 
-	public int getUserNumber() {
-		return userNumber;
+	public int getMemberNumber() {
+		return memberNumber;
 	}
 
-	public void setUserNumber(int userNumber) {
-		this.userNumber = userNumber;
+	public void setMemberNumber(int memberNumber) {
+		this.memberNumber = memberNumber;
 	}
 
 	public String getEducationSchool() {
@@ -64,10 +64,13 @@ public class EducationVO {
 
 	@Override
 	public String toString() {
-		return "EducationVO [educationNumber=" + educationNumber + ", userNumber=" + userNumber + ", educationSchool="
-				+ educationSchool + ", educationMajor=" + educationMajor + ", educationAdmissionDate="
-				+ educationAdmissionDate + ", educationGraduationDate=" + educationGraduationDate + "]";
+		return "EducationVO [educationNumber=" + educationNumber + ", memberNumber=" + memberNumber
+				+ ", educationSchool=" + educationSchool + ", educationMajor=" + educationMajor
+				+ ", educationAdmissionDate=" + educationAdmissionDate + ", educationGraduationDate="
+				+ educationGraduationDate + "]";
 	}
+
+	
 
 	
 	
