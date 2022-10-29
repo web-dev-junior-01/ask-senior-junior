@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class LectureVO {
 	private int lectureNumber;
-	private int userNumber;
+	private int memberNumber;
 	private String lectureCategory;
 	private String lectureTitle;
 	private String lectureIntroductionImage;
@@ -30,11 +30,11 @@ public class LectureVO {
 	}
 
 	public int getUserEmail() {
-		return userNumber;
+		return memberNumber;
 	}
 
 	public void setUserEmail(int userNumber) {
-		this.userNumber = userNumber;
+		this.memberNumber = userNumber;
 	}
 
 	public String getLectureCategory() {
@@ -127,7 +127,7 @@ public class LectureVO {
 
 	@Override
 	public String toString() {
-		return "LectureVO [lectureNumber=" + lectureNumber + ", userEmail=" + userNumber + ", lectureCategory="
+		return "LectureVO [lectureNumber=" + lectureNumber + ", userEmail=" + memberNumber + ", lectureCategory="
 				+ lectureCategory + ", lectureTitle=" + lectureTitle + ", lectureIntroductionImage="
 				+ lectureIntroductionImage + ", lectureTalkerIntroduction=" + lecturelecturerIntroduction
 				+ ", lectureContent=" + lectureContent + ", lectureDate=" + lectureDate + ", lectureSignupStartDate="

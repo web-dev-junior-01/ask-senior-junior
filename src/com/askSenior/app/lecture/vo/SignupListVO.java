@@ -5,7 +5,7 @@ import java.util.Date;
 public class SignupListVO {
 	private int signupListNumber;
 	private int lectureNumber;
-	private int userNumber;
+	private int memberNumber;
 	private Date signupListSignupDate;
 	
 	public SignupListVO() {
@@ -29,11 +29,11 @@ public class SignupListVO {
 	}
 
 	public int getUserNumber() {
-		return userNumber;
+		return memberNumber;
 	}
 
 	public void setUserNumber(int userNumber) {
-		this.userNumber = userNumber;
+		this.memberNumber = userNumber;
 	}
 
 	public Date getSignupListSignupDate() {
@@ -47,7 +47,7 @@ public class SignupListVO {
 	@Override
 	public String toString() {
 		return "SignupListVO [signupListNumber=" + signupListNumber + ", lectureNumber=" + lectureNumber
-				+ ", userNumber=" + userNumber + ", signupListSignupDate=" + signupListSignupDate + "]";
+				+ ", userNumber=" + memberNumber + ", signupListSignupDate=" + signupListSignupDate + "]";
 	}
 
 	

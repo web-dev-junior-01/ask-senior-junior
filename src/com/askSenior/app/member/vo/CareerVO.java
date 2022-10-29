@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class CareerVO {
 	private int careerNumber;
-	private int userNumber;
+	private int memberNumber;
 	private String careerCompany;
 	private String careerPosition;
 	private Date careerEntryDate;
@@ -22,12 +22,12 @@ public class CareerVO {
 		this.careerNumber = careerNumber;
 	}
 
-	public int getUserNumber() {
-		return userNumber;
+	public int getMemberNumber() {
+		return memberNumber;
 	}
 
-	public void setUserNumber(int userNumber) {
-		this.userNumber = userNumber;
+	public void setMemberNumber(int memberNumber) {
+		this.memberNumber = memberNumber;
 	}
 
 	public String getCareerCompany() {
@@ -64,11 +64,12 @@ public class CareerVO {
 
 	@Override
 	public String toString() {
-		return "CareerVO [careerNumber=" + careerNumber + ", userNumber=" + userNumber + ", careerCompany="
+		return "CareerVO [careerNumber=" + careerNumber + ", memberNumber=" + memberNumber + ", careerCompany="
 				+ careerCompany + ", careerPosition=" + careerPosition + ", careerEntryDate=" + careerEntryDate
 				+ ", careerResignationDate=" + careerResignationDate + "]";
 	}
 
+	
 	
 	
 }

@@ -5,7 +5,7 @@ import java.util.Date;
 public class AnswerVO {
 	private int answerNumber;
 	private int questionNumber;
-	private int userNumber;
+	private int memberNumber;
 	private String answerContent;
 	private Date answerUpdatedDate;
 	
@@ -30,11 +30,11 @@ public class AnswerVO {
 	}
 
 	public int getUserNumber() {
-		return userNumber;
+		return memberNumber;
 	}
 
 	public void setUserNumber(int userNumber) {
-		this.userNumber = userNumber;
+		this.memberNumber = userNumber;
 	}
 
 	public String getAnswerContent() {
@@ -56,7 +56,7 @@ public class AnswerVO {
 	@Override
 	public String toString() {
 		return "AnswerVO [answerNumber=" + answerNumber + ", questionNumber=" + questionNumber + ", userNumber="
-				+ userNumber + ", answerContent=" + answerContent + ", answerUpdatedDate=" + answerUpdatedDate + "]";
+				+ memberNumber + ", answerContent=" + answerContent + ", answerUpdatedDate=" + answerUpdatedDate + "]";
 	}
 
 	
